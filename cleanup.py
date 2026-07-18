@@ -2,7 +2,7 @@
 import os
 from bs4 import BeautifulSoup
 
-OLD_URL = "https://sites.google.com/view/f4swiki"
+OLD_URL = "https://f4swiki.github.io"
 NEW_URL = "https://calloffreedom.github.io/f4swiki"
 
 for root, _, files in os.walk("site"):  # assuming wget dumps files into ./site
