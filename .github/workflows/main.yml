@@ -22,6 +22,7 @@ jobs:
         run: sudo apt-get install -y python3-bs4 wget
 
       - name: Fetch Google Site
+        continue-on-error: true
         run: |
           rm -rf *
           wget https://raw.githubusercontent.com/calloffreedom/f4swiki/refs/heads/main/cleanup.py
